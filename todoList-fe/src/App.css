@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #b82838;
+    --color-primary-light: #f2d6d7;
+    --color-primary-dark: #7a1f26;
+    --color-secondary: #F5F5F5;
+    --color-secondary-dark: #2C233F;
+    --color-purple-light: #D8BCFF;
+    --color-gray-light: #d1d5dc;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-dark-purple: #3C354A;
+    --color-purple-lighter: #664AE9;
+
+
+    --breakpoint-laptop: 1024px;
+    --breakpoint-290: 290px;
+   
+    --breakpoint-450: 450px;
+    --breakpoint-480: 480px;
+    --breakpoint-500: 500px;
+    --breakpoint-520: 520px;
+    --breakpoint-550: 550px;
+    --breakpoint-560: 560px;
+    --breakpoint-580: 580px;
+    --breakpoint-600: 600px;
+    --breakpoint-640: 640px;
+    --breakpoint-700: 700px;
+    --breakpoint-720: 720px;
+    --breakpoint-768: 768px;
+    --breakpoint-800: 800px;
+    --breakpoint-900: 900px;
+    --breakpoint-950: 950px;
+    --breakpoint-1000: 1000px;
+    --breakpoint-1024: 1024px;
+    --breakpoint-1100: 1100px;
+    --breakpoint-1150: 1150px;
+    --breakpoint-1200: 1200px;
+    --breakpoint-1280: 1280px;
+    --breakpoint-1300: 1300px;
+    --breakpoint-1320: 1320px;
+    --breakpoint-1340: 1340px;
+    --breakpoint-1366: 1366px;
+    --breakpoint-1440: 1440px;
+    --breakpoint-1500: 1500px;
+    --breakpoint-1536: 1536px;
+    --breakpoint-1600: 1600px;
+    --breakpoint-1700: 1700px;
+    --breakpoint-1800: 1800px;
+    --breakpoint-1850: 1850px;
+    --breakpoint-1900: 1900px;
+    --breakpoint-1920: 1920px;
+    --breakpoint-2000: 2000px;
+    --breakpoint-2100: 2100px;
+    --breakpoint-2200: 2200px;
+    --breakpoint-2400: 2400px;
+    --breakpoint-2560: 2560px;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+body {
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+}
